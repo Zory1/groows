@@ -1,0 +1,19 @@
+<template name="layout">
+	
+		
+			<div class="col s12 nav-wrapper">
+				{{>Template.dynamic template=app_bar}}
+			</div>
+		
+		<div class="container">
+		<div>
+			{{>Template.dynamic template=nav_tabs}}
+		</div>
+		<div>
+			{{>Template.dynamic template=main}}
+		</div>
+		<div>
+			{{>Template.dynamic template=fab}}
+		</div>	
+	</div>
+</template>
