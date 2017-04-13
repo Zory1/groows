@@ -116,4 +116,15 @@ ul, menu, dir {
 
 img.circle {
     line-height: 48px;
+  }
+
+a.pad-0 {
+  padding: 0px;
+  height: auto;
+  line-height: 40px;
+}
+
+.side-nav .userView .name, .side-nav .userView .email {
+    font-size: 14px;
+    line-height: 24px;
 }
