@@ -128,3 +128,11 @@ a.pad-0 {
     font-size: 14px;
     line-height: 24px;
 }
+
+ul.collapsible.collapsible-accordion {
+    -webkit-padding-start: 0px;
+}
+
+a.collapsible-header>i{
+  float: right;
+}
