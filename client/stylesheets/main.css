@@ -169,8 +169,25 @@ a.collapsible-header>i{
 .tabs .tab a.active{
   border-bottom: solid #84ffff;
   color: #ffffff;
+  background-color: none !important;
+}
+.tabs .tab {
+  background-color: none !important;
 }
 
 .tabs .tab a:hover {
     color: #ffffff;
 }
+
+/***START: Floating button fixes****/
+.wpad-0 {
+      -webkit-padding-start: 0px !important;
+}
+
+@media only screen and (min-width: 601px){
+  .fab .material-icons.md-18 {
+      height: 40px;
+      line-height: 40px;
+  }
+}
+/***END: Floating button fixes****/
