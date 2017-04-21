@@ -148,9 +148,29 @@ a.collapsible-header>i{
 
 
 /******END: side nav and top app bar issues fixes ******/
-
+.no-shadow {
+  box-shadow: none;
+}
 
 .tabs {
   margin:0px !important;
   width: 100% !important;
+}
+
+
+.tabs div.indicator {
+  display:none !important;
+}
+
+.tabs .tab a{
+  color:#f0f4c3;
+}
+
+.tabs .tab a.active{
+  border-bottom: solid #84ffff;
+  color: #ffffff;
+}
+
+.tabs .tab a:hover {
+    color: #ffffff;
 }

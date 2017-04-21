@@ -3,17 +3,18 @@
 </head>
 
 <template name="app_bar">
-<nav class="lime darken-2">
+  <div class="row lime">
+<nav class="lime no-shadow">
 		   
 	<a href="#" data-activates="slide-out" class="s button-collapse show-on-large"><i class="material-icons md-18 valign pad-15">menu</i></a>
 
 	<span class="flow-text">Page title</span>
 	 <ul class="right">
-	 	<li><a href="#"><i class="material-icons md-18">search</i></a></li>
+	 	<li><a href="#"><i class="material-icons md-18 ">search</i></a></li>
 	    <li><a href="#"><i class="material-icons md-18 ">more_vert</i></a></li>
 	  </ul>
 
-		 
+		     {{>Template.dynamic template=nav_tabs}}
 
 		
 	 <ul id="slide-out" class="side-nav" style="transform: translateX(-100%); margin-left: -40px;">
@@ -76,8 +77,9 @@
       <li><div class="divider"></div></li>
       <li class="bold"><a href="#!" class="waves-effect">Search</a></li>
 	  </ul>
+
 	
 </nav>	
-		  
+</div>		  
 		
 </template>
