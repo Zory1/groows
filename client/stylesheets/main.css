@@ -46,6 +46,13 @@
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
+@media only screen and (min-width: 601px){
+  .material-icons.md-18 {
+      height: 64px;
+      line-height: 64px;
+  }
+}
+
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
@@ -59,6 +66,8 @@
 	padding-right: 15px;
 }
 /* User icons - end */
+
+/******START: side nav and top app bar issues fixes ******/
 
 .side-nav .userView {
     position: relative;
@@ -135,4 +144,13 @@ ul.collapsible.collapsible-accordion {
 
 a.collapsible-header>i{
   float: right;
+}
+
+
+/******END: side nav and top app bar issues fixes ******/
+
+
+.tabs {
+  margin:0px !important;
+  width: 100% !important;
 }
