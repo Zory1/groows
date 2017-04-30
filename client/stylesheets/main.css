@@ -191,3 +191,80 @@ a.collapsible-header>i{
   }
 }
 /***END: Floating button fixes****/
+
+/***** START: login /sign up fixes *****/
+a.active-login{
+  border-bottom: solid 3px #84ffff !important;
+  color: #ffffff !important;
+  background-color: none !important;
+}
+
+a.n-active-login{
+  color:rgba(132, 255, 255, 0.5) !important;
+  background-color: none !important;
+}
+
+  /* label color */
+   .input-field label {
+     color:rgba(0,0,0, 0.3);
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label {
+     color:rgba(0,0,0, 0.5);
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus,  .input-field input[type=password]:focus {
+     border-bottom: 1px solid rgba(0,0,0, 0.3) !important;
+     box-shadow: 0 1px 0 0 rgba(0,0,0, 0.5);
+   }
+    /* label underline validate color */
+   .input-field input[type=text].validate, .input-field input[type=password].validate  {
+     border-bottom: 1px solid rgba(0,0,0, 0.3);
+     
+   }
+   /* valid color */
+   .input-field input[type=text].valid, .input-field input[type=password].valid{
+     border-bottom: 1px solid rgba(0,0,0, 0.3) !important;
+     box-shadow: 0 1px 0 0 rgba(0,0,0, 0.5);
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid, .input-field input[type=password].invalid  {
+     border-bottom: 1px solid rgba(255, 0, 0, 0.5) !important;
+     box-shadow: 0 1px 0 0 rgba(255, 0, 0, 0.5);
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+.picker__date-display, .picker__weekday-display{
+    background-color: #00bcd4;
+}
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected{
+  background-color: #00bcd4 !important;
+}
+
+.picker__day.picker__day--today {
+    color: #00bcd4 !important;
+}
+
+.picker__day.picker__day--today.picker__day--selected {
+    color: #ffffff !important;
+}
+
+.picker__close, .picker__today {
+    color: #00bcd4 !important;
+}
+
+.checkbox-cyan[type="checkbox"] + label:before{
+  border: 2px solid rgba(0,0,0, 0.3);
+  background: transparent;
+}
+.checkbox-cyan[type="checkbox"]:checked + label:before{
+  border: 2px solid transparent;
+  border-bottom: 2px solid #00bcd4;
+  border-right: 2px solid #00bcd4;
+  background: transparent;
+}
+
+/***** END: login /sign up fixes *****/
