@@ -6,8 +6,8 @@
 					<div class="card " style="min-height:200px !important">
 					    <div class="card-tabs" >
 					      <ul class="tabs tabs-fixed-width cyan" style="padding-left:0px">
-					        <li class="tab" style="margin-left:20px"><a class="active-login" href="#">Login</a></li>
-					        <li class="tab"><a href="/sign_in" class="n-active-login">Sign In</a></li>
+					        <li class="tab" style="margin-left:20px"><a class="active-login" href="#">{{_ "login"}}</a></li>
+					        <li class="tab"><a href="/sign_in" class="n-active-login">{{_ "sign_in"}}</a></li>
 					      </ul>
 					    </div>
 					    <div class="card-content white" style="padding-bottom: 0px;">
@@ -16,24 +16,26 @@
 									<div class="row ">
 								        <div class="input-field col s12">
 								          <input id="user_name" type="text" class="validate">
-								          <label for="user_name">Username</label>
+								          <label for="user_name">{{_ "username"}}</label>
 								        </div>
 								      </div>
 								      <div class="row">
 								        <div class="input-field col s12">
 								          <input id="password" type="password" class="validate">
-								          <label for="password">Password</label>
+								          <label for="password">{{_ "password"}}</label>
 								        </div>
 								      </div>
 
 								    <p class="hide-on-med-and-down" style="margin-top:-25px !important">
 								      <input type="checkbox" id="test5" class="checkbox-cyan" />
-								      <label for="test5">Remember me for 30 days</label>
+								      <label for="test5">{{_ "remember_me_for_30_days"}}</label>
 								    </p>
-									 <div class="container">
-										<div class="row">
-											<div class="col s6 m2 l2 offset-s5 offset-m8 offset-l8">
-												<a class="waves-effect waves-light btn cyan">Login</a>
+
+								    
+									 <div class="container right">
+										<div class="row right" >
+											<div class="col s6 m2 l2" style="width: auto !important;">
+												<a class="waves-effect waves-light btn cyan">{{_ "login"}}</a>
 											</div>
 										</div>
 									</div>

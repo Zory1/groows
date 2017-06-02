@@ -268,3 +268,11 @@ a.n-active-login{
 }
 
 /***** END: login /sign up fixes *****/
+
+/********* START:  i18n GUI   ***********************/
+
+/*********   i18n GUI   ***********************/
+ul.dropdown-content.select-dropdown{
+  padding-left: 0px !important;
+}
+/********* END:  i18n GUI   ***********************/

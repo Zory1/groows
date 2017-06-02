@@ -1,0 +1,11 @@
+{
+	"username":"Användarnamn",
+	"email": "E-post",
+	"password":"Lösenord",
+	"date_of_birth":"Födelsedatum",
+	"submit":"Lämna",
+	"select_your_language":"Välj ditt språk",
+	"login":"Logga in",
+	"sign_in":"Registrera dig",
+	"remember_me_for_30_days":"Kom ihåg mig i 30 dagar"
+}

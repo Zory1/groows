@@ -1,0 +1,11 @@
+{
+	"username":"Username",
+	"email": "Email",
+	"password":"Password",
+	"date_of_birth":"Date of birth",
+	"submit":"Submit",
+	"select_your_language":"Choose your language",
+	"login":"Login",
+	"sign_in":"Sign in",
+	"remember_me_for_30_days":"Remember me for 30 days"
+}

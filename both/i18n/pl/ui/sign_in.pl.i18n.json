@@ -1,0 +1,11 @@
+{
+	"username":"Nazwa Użytkownika",
+	"email": "E-mail",
+	"password":"Hasło",
+	"date_of_birth":"Data urodzenia",
+	"submit":"Zatwierdź",
+	"select_your_language":"Wybierz swój język",
+	"login":"Zaloguj Się",
+	"sign_in":"Zapisz się",
+	"remember_me_for_30_days":"Pamiętaj mnie przez 30 dni"
+}

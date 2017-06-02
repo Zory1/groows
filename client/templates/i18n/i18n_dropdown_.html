@@ -1,0 +1,14 @@
+<template name="i18n_dropdown_">
+  <span class="tap-i18n-dropdown">
+    {{#if i18n_enabled}}
+      <select class="form-control">
+        <option disabled selected></option>
+        {{#each i18n_sortedLanguages}}
+          <option value="{{tag}}">{{name}}</option>
+        {{/each}}
+      </select>
+    {{else}}
+      <span class="i18n-not-found">No i18n files found</span>
+    {{/if}}
+  </span>
+</template>
