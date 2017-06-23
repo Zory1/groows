@@ -26,3 +26,7 @@ kadira:flow-router
 fourseven:scss
 materialize:materialize
 meteorhacks:inject-initial
+kadira:blaze-layout
+tap:i18n-ui
+tap:i18n-db
+tap:i18n

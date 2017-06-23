@@ -3,16 +3,22 @@
 </head>
 
 <template name="app_bar">
-  <div class="row lime">
-<nav class="lime no-shadow">
-		   
-	<a href="#" data-activates="slide-out" class="s button-collapse show-on-large"><i class="material-icons md-18 valign pad-15">menu</i></a>
+<nav class=" nav-extended" style="
+    height: 96px !important;
+    background-color: rgba(255,225,233,0);
+    line-height: 48px;">
+		   <div class="row pink darken-1 ">
+	<a href="#" data-activates="slide-out" class="light button-collapse show-on-large" style="height:48px !important"><i class="material-icons md-24 valign pad-15">menu</i></a>
+  
+  <div class="col s4" style="height:48px !important;line-height: 48px !important;">
+    {{>Template.dynamic template=screen_title}}
+  </div>
 
-	<span class="flow-text">Page title</span>
+  
 	 <ul class="right">
-	 	<li><a href="#"><i class="material-icons md-18 ">search</i></a></li>
-	    <li><a href="#"><i class="material-icons md-18 ">more_vert</i></a></li>
-	  </ul>
+	 	 <li style="height:48px !important"><a href="#" class="light"><i class="material-icons md-24 ">search</i></a></li>
+	    <li style="height:48px !important"><a href="#" class="light"><i class="material-icons md-24 ">more_vert</i></a></li>
+	 </ul>
 
 		     {{>Template.dynamic template=nav_tabs}}
 
@@ -36,7 +42,7 @@
       <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
           <li>
-            <a class="collapsible-header waves-effect">Your wall of glory<i class="material-icons md-18">arrow_drop_down</i></a>
+            <a class="collapsible-header waves-effect">Your wall of glory<i class="material-icons md-24">arrow_drop_down</i></a>
 
             <div class="collapsible-body">
               <ul>
@@ -48,7 +54,7 @@
           </li>
 
           <li>
-            <a class="collapsible-header waves-effect">Learn and play<i class="material-icons md-18">arrow_drop_down</i></a>
+            <a class="collapsible-header waves-effect">Learn and play<i class="material-icons md-24">arrow_drop_down</i></a>
 
             <div class="collapsible-body">
               <ul>
@@ -60,7 +66,7 @@
           </li>
 
           <li>
-            <a class="collapsible-header waves-effect">Create stuff in your lab<i class="material-icons md-18">arrow_drop_down</i></a>
+            <a class="collapsible-header waves-effect">Create stuff in your lab<i class="material-icons md-24">arrow_drop_down</i></a>
 
             <div class="collapsible-body">
               <ul>
@@ -77,9 +83,8 @@
       <li><div class="divider"></div></li>
       <li class="bold"><a href="#!" class="waves-effect">Search</a></li>
 	  </ul>
+{{>Template.dynamic template=tabs}}
+	</div>
+</nav>		  
 
-	
-</nav>	
-</div>		  
-		
 </template>

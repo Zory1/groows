@@ -29,7 +29,8 @@
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
-  line-height: 1;
+  line-height: 48px !important;
+  height: 48px !important;
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -152,32 +153,38 @@ a.collapsible-header>i{
   box-shadow: none;
 }
 
+/****** START : TABS *******/
+
 .tabs {
   margin:0px !important;
   width: 100% !important;
 }
 
-
-.tabs div.indicator {
-  display:none !important;
+a.light {
+  color: rgba(255,255,255,0.7) !important;
 }
 
-.tabs .tab a{
-  color:#f0f4c3;
+a.light.active{
+  color:#ffffff !important;
+  background-color: rgba(0, 0, 0, 0)
 }
 
-.tabs .tab a.active{
-  border-bottom: solid #84ffff;
-  color: #ffffff;
-  background-color: none !important;
-}
-.tabs .tab {
-  background-color: none !important;
+a.light.active:active{
+  background-color:none !important;
 }
 
-.tabs .tab a:hover {
-    color: #ffffff;
+a.light:hover{
+  color:rgba(255,255,255,1) !important;
+  background-color: rgba(0, 0, 0, 0)
 }
+
+div.indicator {
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+}
+
+/****** END :  TABS *******/
+
 
 /***START: Floating button fixes****/
 .wpad-0 {

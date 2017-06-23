@@ -89,3 +89,9 @@ FlowRouter.route("/search", {
 		FlowLayout.render('layout', {app_bar:'app_bar', nav_tabs:'nav_tabs', main:'search', fab:"fab"});
 	}
 });
+
+FlowRouter.route("/timeline", {	
+	action:function(){
+		FlowLayout.render('layout', {app_bar:'app_bar', screen_title:'timeline_screen_title', tabs:'timeline_tabs', main:'timeline', fab:"fab"});
+	}
+});
