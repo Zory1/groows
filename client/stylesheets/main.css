@@ -283,3 +283,26 @@ ul.dropdown-content.select-dropdown{
   padding-left: 0px !important;
 }
 /********* END:  i18n GUI   ***********************/
+
+/****** START: fix for search box in top nav *******/
+i.search-active{
+  color: blue !important;
+}
+/****** END: fix for search box in top nav *******/
+
+/****** START: more_nav fixes ******/
+.dropdown-content.active {
+  width: 200px !important;
+  right:0px !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #444;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.06) !important;
+  width: 200px !important;
+}
+
+/****** END: more_nav fixes ******/

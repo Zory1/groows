@@ -9,7 +9,8 @@ $('.datepicker').pickadate(
 });*/
 		$('.datepicker').pickadate({
 		    selectMonths: true, // Creates a dropdown to control month
-		    selectYears: 45 // Creates a dropdown of 15 years to control year
+		    selectYears: 45, // Creates a dropdown of 15 years to control year
+				container: 'body'
 		  });
 		 $('select').material_select();
 		 $('ul.dropdown-content.select-dropdown li').click(function(e){

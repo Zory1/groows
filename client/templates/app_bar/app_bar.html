@@ -7,18 +7,16 @@
     height: 96px !important;
     background-color: rgba(255,225,233,0);
     line-height: 48px;">
-		   <div class="row pink darken-1 ">
-	<a href="#" data-activates="slide-out" class="light button-collapse show-on-large" style="height:48px !important"><i class="material-icons md-24 valign pad-15">menu</i></a>
-  
-  <div class="col s4" style="height:48px !important;line-height: 48px !important;">
-    {{>Template.dynamic template=screen_title}}
+
+<div class="row pink darken-1 ">
+  <div class="col s2" style="height:48px !important;padding-left:0px !important;">
+	  <a href="#" data-activates="slide-out" class="light button-collapse show-on-large" style="height: 48px !important;margin-left: 5px;"><i class="material-icons md-24 valign pad-15">menu</i></a>
   </div>
 
-  
-	 <ul class="right">
-	 	 <li style="height:48px !important"><a href="#" class="light"><i class="material-icons md-24 ">search</i></a></li>
-	    <li style="height:48px !important"><a href="#" class="light"><i class="material-icons md-24 ">more_vert</i></a></li>
-	 </ul>
+  <div class="col s10" style="height:48px !important;padding-left:0px !important;padding-right: 0px;">
+    {{>navbar_search}}
+   </div>
+
 
 		     {{>Template.dynamic template=nav_tabs}}
 
@@ -45,7 +43,7 @@
             <a class="collapsible-header waves-effect">Your wall of glory<i class="material-icons md-24">arrow_drop_down</i></a>
 
             <div class="collapsible-body">
-              <ul>
+              <ul style="padding-left:0px !important">
                 <li><a href="#!">Profile</a></li>
                 <li><a href="#!">Achievements</a></li>
                 <li><a href="#!">Library</a></li>
@@ -57,7 +55,7 @@
             <a class="collapsible-header waves-effect">Learn and play<i class="material-icons md-24">arrow_drop_down</i></a>
 
             <div class="collapsible-body">
-              <ul>
+              <ul style = "padding-left:0px !important">
                 <li><a href="#!">Practice</a></li>
                 <li><a href="#!">Review</a></li>
                 <li><a href="#!">Story Mode</a></li>
@@ -69,7 +67,7 @@
             <a class="collapsible-header waves-effect">Create stuff in your lab<i class="material-icons md-24">arrow_drop_down</i></a>
 
             <div class="collapsible-body">
-              <ul>
+              <ul style = "padding-left:0px !important">
                 <li><a href="#!">Assets</a></li>
                 <li><a href="#!">In Progress</a></li>
                 <li><a href="#!">Bids</a></li>

@@ -3,3 +3,8 @@ Template.app_bar.onRendered(function(){
 		$(".button-collapse").sideNav();
         $('.collapsible').collapsible();
 });
+
+Template.app_bar.helpers({
+	"search_active":  true,
+	"search_active2": false
+});
