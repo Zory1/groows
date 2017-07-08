@@ -42,6 +42,12 @@
 }
 
  /* Rules for sizing the icon. */
+.material-icons.md-12 { 
+  font-size: 12px;
+  line-height:12px !important;
+  height: 15px !important;
+  vertical-align: middle;
+ }
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -306,3 +312,147 @@ i.search-active{
 }
 
 /****** END: more_nav fixes ******/
+
+/*** START: fixes for timeline newlent card ***/
+.card-reveal {
+  height: 90% !important;
+}
+
+.user-icon-timeline {
+    height: 64px;
+    width: 64px;
+    display: block;
+}
+
+h1.timeline {
+   text-align: justify;
+   font-size: 14px;
+   line-height: 18px;
+   margin: 0px !important;
+   padding: 0px !important;  
+   display: inline-block;
+   vertical-align: bottom;
+   font-weight: 300;
+}
+
+h2.timeline {
+   text-align: left;
+   line-height: 24px;
+   font-size: 12px;
+   color: rgba(51, 51, 51, 0.55);
+   margin: 0px !important;
+   padding: 0px !important;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+#post-meta {
+  margin:0px !important; 
+  padding:0px !important;
+}
+
+#post-avatar {
+  padding-left:0px !important; 
+  padding-right:0px !important; 
+  height:64px !important;
+}
+
+#right-to-avatar {
+  padding-top:5px !important; 
+  height:64px !important;
+  padding-left: 5px !important;
+  padding-right: 5px;
+}
+
+#post-avatar-img {
+  margin:auto !important;
+}
+
+div#post-meta-wrap{
+  margin:0px !important; 
+  padding:10px 10px 10px 0px !important;
+}
+
+@media screen and (min-width: 980px) {
+  #right-to-avatar{
+    padding-left: 0px !important;
+  }
+}
+
+
+@media screen and (max-width: 979px) {
+  #right-to-avatar{
+    padding-left: 0px !important;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  #right-to-avatar{
+      padding-left: 5px !important;
+  }
+}
+
+/*
+@media screen and (min-width: 993px){
+  i.words{
+    left: 40px !important;
+  }
+}
+*/
+
+div#title-wrap {
+  line-height: 14px !important;
+  padding: 0px !important;
+  font-size: 14px !important;
+  color:rgba(51, 51, 51, 0.55);
+}
+
+i.level{
+  padding: 0px !important;
+  margin: 0px !important;
+  height: 14px !important;
+  line-height: 14px !important;
+  width: 10px !important;
+}
+
+span.level {
+    margin-left: 15px!important;
+    position: relative;
+    vertical-align: top !important;
+}
+
+span.words {
+    line-height: 14px !important;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+i.words {
+    height: 14px !important;
+    line-height: 14px !important;
+    position: relative;
+    left: calc(100% - 90px);
+    
+}
+
+div#title {
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+
+#title-footer {
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+}
+
+/*** END: fixes for timeline newlent card ***/

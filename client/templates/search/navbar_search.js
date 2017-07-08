@@ -50,5 +50,5 @@ Template.navbar_search.onCreated(function(){
 });
 
 Template.navbar_search.onRendered(function(){
-    $(".dropdown-button").dropdown({ hover: false });
+    $(".dropdown-button").dropdown();
 });
