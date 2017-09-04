@@ -455,4 +455,49 @@ div#title {
     margin-top: 20px !important;
 }
 
+.chip{
+  margin-bottom: 3px !important;
+  background-color: rgba(0,0,0,0.1);
+  font-weight: 300 !important;
+  height: 28px !important;
+  font-size: 12px;
+  line-height: 28px !important;
+  border-radius: 14px;
+
+}
 /*** END: fixes for timeline newlent card ***/
+
+/*** START: social stats and buttons fixes **/
+
+.social-stats {
+  font-size: 80%;
+  padding: 0px !important;
+  margin: 0px !important;
+  /*
+  vertical-align: sub;
+  position: relative;
+  top: 5px;
+  line-height: 20px !important; */
+}
+
+
+.emoji-display {
+  margin-left: -5px !important;
+}
+
+.emojione {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+a.item-action:hover {
+  color: rgba(0,0,0,0.2) !important;
+}
+
+a.item-action {
+  color: rgba(0,0,0,0.4) !important;
+  margin: 0px !important;
+  width: 18% !important;
+  display: inline-block;
+}
+/*** END: social stats and buttons fixes **/
